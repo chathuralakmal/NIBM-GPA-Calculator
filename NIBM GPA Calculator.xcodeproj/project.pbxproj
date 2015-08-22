@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AF10AA1B891928005B39B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF10A91B891928005B39B1 /* AppDelegate.swift */; };
+		04AF10AC1B891928005B39B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF10AB1B891928005B39B1 /* ViewController.swift */; };
+		04AF10AF1B891928005B39B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF10AD1B891928005B39B1 /* Main.storyboard */; };
+		04AF10B11B891928005B39B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AF10B01B891928005B39B1 /* Images.xcassets */; };
+		04AF10B41B891928005B39B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AF10B21B891928005B39B1 /* LaunchScreen.xib */; };
+		04AF10C01B891928005B39B1 /* NIBM_GPA_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF10BF1B891928005B39B1 /* NIBM_GPA_CalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AF10BA1B891928005B39B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AF109C1B891928005B39B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AF10A31B891928005B39B1;
+			remoteInfo = "NIBM GPA Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AF10A41B891928005B39B1 /* NIBM GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AF10A81B891928005B39B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AF10A91B891928005B39B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04AF10AB1B891928005B39B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04AF10AE1B891928005B39B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AF10B01B891928005B39B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04AF10B31B891928005B39B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04AF10B91B891928005B39B1 /* NIBM GPA CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NIBM GPA CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AF10BE1B891928005B39B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AF10BF1B891928005B39B1 /* NIBM_GPA_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_GPA_CalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AF10A11B891928005B39B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF10B61B891928005B39B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AF109B1B891928005B39B1 = {
+			isa = PBXGroup;
+			children = (
+				04AF10A61B891928005B39B1 /* NIBM GPA Calculator */,
+				04AF10BC1B891928005B39B1 /* NIBM GPA CalculatorTests */,
+				04AF10A51B891928005B39B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AF10A51B891928005B39B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AF10A41B891928005B39B1 /* NIBM GPA Calculator.app */,
+				04AF10B91B891928005B39B1 /* NIBM GPA CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AF10A61B891928005B39B1 /* NIBM GPA Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				04AF10A91B891928005B39B1 /* AppDelegate.swift */,
+				04AF10AB1B891928005B39B1 /* ViewController.swift */,
+				04AF10AD1B891928005B39B1 /* Main.storyboard */,
+				04AF10B01B891928005B39B1 /* Images.xcassets */,
+				04AF10B21B891928005B39B1 /* LaunchScreen.xib */,
+				04AF10A71B891928005B39B1 /* Supporting Files */,
+			);
+			path = "NIBM GPA Calculator";
+			sourceTree = "<group>";
+		};
+		04AF10A71B891928005B39B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AF10A81B891928005B39B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04AF10BC1B891928005B39B1 /* NIBM GPA CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AF10BF1B891928005B39B1 /* NIBM_GPA_CalculatorTests.swift */,
+				04AF10BD1B891928005B39B1 /* Supporting Files */,
+			);
+			path = "NIBM GPA CalculatorTests";
+			sourceTree = "<group>";
+		};
+		04AF10BD1B891928005B39B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AF10BE1B891928005B39B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AF10A31B891928005B39B1 /* NIBM GPA Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AF10C31B891928005B39B1 /* Build configuration list for PBXNativeTarget "NIBM GPA Calculator" */;
+			buildPhases = (
+				04AF10A01B891928005B39B1 /* Sources */,
+				04AF10A11B891928005B39B1 /* Frameworks */,
+				04AF10A21B891928005B39B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NIBM GPA Calculator";
+			productName = "NIBM GPA Calculator";
+			productReference = 04AF10A41B891928005B39B1 /* NIBM GPA Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AF10B81B891928005B39B1 /* NIBM GPA CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AF10C61B891928005B39B1 /* Build configuration list for PBXNativeTarget "NIBM GPA CalculatorTests" */;
+			buildPhases = (
+				04AF10B51B891928005B39B1 /* Sources */,
+				04AF10B61B891928005B39B1 /* Frameworks */,
+				04AF10B71B891928005B39B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AF10BB1B891928005B39B1 /* PBXTargetDependency */,
+			);
+			name = "NIBM GPA CalculatorTests";
+			productName = "NIBM GPA CalculatorTests";
+			productReference = 04AF10B91B891928005B39B1 /* NIBM GPA CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AF109C1B891928005B39B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Chathura Lakmal";
+				TargetAttributes = {
+					04AF10A31B891928005B39B1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04AF10B81B891928005B39B1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04AF10A31B891928005B39B1;
+					};
+				};
+			};
+			buildConfigurationList = 04AF109F1B891928005B39B1 /* Build configuration list for PBXProject "NIBM GPA Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AF109B1B891928005B39B1;
+			productRefGroup = 04AF10A51B891928005B39B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AF10A31B891928005B39B1 /* NIBM GPA Calculator */,
+				04AF10B81B891928005B39B1 /* NIBM GPA CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AF10A21B891928005B39B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF10AF1B891928005B39B1 /* Main.storyboard in Resources */,
+				04AF10B41B891928005B39B1 /* LaunchScreen.xib in Resources */,
+				04AF10B11B891928005B39B1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF10B71B891928005B39B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AF10A01B891928005B39B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF10AC1B891928005B39B1 /* ViewController.swift in Sources */,
+				04AF10AA1B891928005B39B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AF10B51B891928005B39B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF10C01B891928005B39B1 /* NIBM_GPA_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AF10BB1B891928005B39B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AF10A31B891928005B39B1 /* NIBM GPA Calculator */;
+			targetProxy = 04AF10BA1B891928005B39B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AF10AD1B891928005B39B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AF10AE1B891928005B39B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AF10B21B891928005B39B1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AF10B31B891928005B39B1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AF10C11B891928005B39B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AF10C21B891928005B39B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AF10C41B891928005B39B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NIBM GPA Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04AF10C51B891928005B39B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NIBM GPA Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04AF10C71B891928005B39B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NIBM GPA CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIBM GPA Calculator.app/NIBM GPA Calculator";
+			};
+			name = Debug;
+		};
+		04AF10C81B891928005B39B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NIBM GPA CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIBM GPA Calculator.app/NIBM GPA Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AF109F1B891928005B39B1 /* Build configuration list for PBXProject "NIBM GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF10C11B891928005B39B1 /* Debug */,
+				04AF10C21B891928005B39B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AF10C31B891928005B39B1 /* Build configuration list for PBXNativeTarget "NIBM GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF10C41B891928005B39B1 /* Debug */,
+				04AF10C51B891928005B39B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04AF10C61B891928005B39B1 /* Build configuration list for PBXNativeTarget "NIBM GPA CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AF10C71B891928005B39B1 /* Debug */,
+				04AF10C81B891928005B39B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AF109C1B891928005B39B1 /* Project object */;
+}
